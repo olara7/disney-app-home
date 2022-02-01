@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url('C:\Users\Oscar\Documents\disney-plus-app\public\img\home-background.png');
+  background-image: url('../public/img/home-background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
