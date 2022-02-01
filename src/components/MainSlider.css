@@ -1,0 +1,67 @@
+.swiper-slide .cover-img {
+    position: static;
+    height: auto;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.swiper-slide a:hover .cover-img {
+    outline: 3px rgb(216, 216, 216) solid;
+    overflow: visible;
+}
+
+/* top padding so content doesn't go behind navigation bar */
+body {
+    padding-top: 77px;
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
+
+.overlay {
+    position: fixed;
+    color: #f1f1f1;
+    width: 1200px;
+    height: 300px;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+}
+
+.overlay-simpsons {
+    position: fixed;
+    color: #f1f1f1;
+    top: 30px;
+    left: 100px;
+    width: 25%;
+    height: auto;
+    transition: .5s ease;
+}
+
+  /*
+.swiper-button-prev {
+    opacity: 0%;
+}
+
+.swiper-button-next {
+    opacity: 0%;
+}
+*/
+
+.swiper-button-prev {
+    opacity: 0%;
+}
+
+.swiper-button-next {
+    opacity: 0%;
+}
+
+.swiper-button-prev:hover {
+    opacity: 100%;
+}
+
+.swiper-button-next:hover {
+    opacity: 100%;
+}

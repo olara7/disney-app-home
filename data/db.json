@@ -1,0 +1,74 @@
+{
+    "shows": [
+        {
+            "id": "1",
+            "title": "the-simpsons",
+            "genres": [
+                "Family",
+                "Comedy",
+                "Animated"
+            ],
+            "src": "/img/content-images/the-simpsons-cover.png"
+        },
+        {
+            "id": "2",
+            "title": "bluey",
+            "genres": [
+                "Family",
+                "Comedy",
+                "Animated"
+            ],
+            "src": "/img/content-images/bluey-cover.png"
+        },
+        {
+            "id": "3",
+            "title": "encanto",
+            "genres": [
+                "Family",
+                "Comedy",
+                "Animated"
+            ],
+            "src": "/img/content-images/encanto-cover.png"
+        },
+        {
+            "id": "4",
+            "title": "luca",
+            "genres": [
+                "Family",
+                "Comedy",
+                "Animated"
+            ],
+            "src": "/img/content-images/luca-cover.png"
+        },
+        {
+            "id": "5",
+            "title": "random things",
+            "genres": [
+                "Family",
+                "Comedy",
+                "Animated"
+            ],
+            "src": "/img/content-images/random-things-cover.png"
+        },
+        {
+            "id": "6",
+            "title": "shang chi",
+            "genres": [
+                "Family",
+                "Comedy",
+                "Animated"
+            ],
+            "src": "/img/content-images/shang-chi-cover.png"
+        },
+        {
+            "id": "7",
+            "title": "tangled",
+            "genres": [
+                "Family",
+                "Comedy",
+                "Animated"
+            ],
+            "src": "/img/content-images/tangled-cover.png"
+        }
+    ]
+}

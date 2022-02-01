@@ -1,0 +1,23 @@
+.swiper-slide .show-image {
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 50px;
+    transition: all .2s ease-in-out;
+    overflow: visible;
+}
+
+.swiper-slide a:hover .show-image {
+    outline: 3px rgb(216, 216, 216) solid;
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+
+/* padding on slide to show full outline when hovered */
+.swiper-slide {
+    padding: 5px;
+}
+
+.swiper-slide {
+    overflow: visible;
+}

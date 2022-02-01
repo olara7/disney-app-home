@@ -1,0 +1,71 @@
+.navbar {
+    background: black;
+    padding: 3px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbar nav {
+    display: flex; /* links next to each other */
+    align-items: center;
+}
+
+.navbar a.logo {
+    margin-right: auto; /* move to the right */
+    color: white;
+    text-decoration: none; /* no underline */
+}
+
+/* underline animation on navigation menu text */
+.navbar span {
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom:2px;
+}
+
+.navbar span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar span:hover:after {
+    transform: scaleX(0.5);
+    transform-origin: bottom-left;
+}
+
+.navbar img {
+    width: 100px;
+    padding-left: 20px;
+}
+
+.menu img {
+    width: 30px;
+    height: 20px;
+}
+
+.nav-profile {
+    margin-left: auto; /* move user profile to the right */
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}

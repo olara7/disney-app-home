@@ -1,0 +1,64 @@
+.brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 30px 50px auto;
+    padding: 20px;
+    width: auto;
+}
+
+.brand-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 135px;
+    width: 250px;
+    background-image: url('C:\Users\Oscar\Documents\disney-plus-app\public\img\home-background.png');
+    border-radius: 10px;
+    outline: 2px rgb(78, 78, 78) solid;
+    transition: all .2s ease-in-out;
+    box-shadow: 0px 15px 20px 0px;
+    overflow: hidden;
+}
+
+.brand-container:hover {
+    outline: 3px white solid;
+    transform: scale(1.05);
+}
+
+.brand-container img {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+
+.brand-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.brand-container .video-bg {
+    opacity: 0%;
+}
+
+.brand-container:hover .video-bg {
+    opacity: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .brands {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .brands {
+        grid-template-columns: 1fr
+    }
+}
