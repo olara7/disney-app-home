@@ -3,6 +3,8 @@
 ## Overview
 This is a a clone app recreating the home page from the disney plus website.
 
+##### Technologies used: HTML & CSS | ReactJS | SwiperJS for the sliders
+
 Live Demo: https://disneyhomepageclonewebsite-ef99ba.netlify.app/
 
 ![disney-app1](https://user-images.githubusercontent.com/54912970/151945493-f8d1619a-4285-4b30-b7bb-b30ffba4239d.PNG)
