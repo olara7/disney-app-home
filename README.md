@@ -1,7 +1,7 @@
 # Disney Plus Home Clone App
 
 ## Overview
-This is a a clone app recreating the home page from the disney plus website.
+This is a a clone app recreating the home page from the disney plus website. I decided to replicate the disney home menu because I was interested in how they made the hover over animations for the companies Disney, Pixar, Marvel, Star Wars and National Geographic. I also wanted to know how to make sliders and implement them in the way that they did.
 
 ##### Technologies used: HTML & CSS | ReactJS | SwiperJS for the sliders
 
